@@ -1,0 +1,202 @@
+/* COLOURS TO INVESTIGATE
+nicely matched colours (pastel shades);
+#D1E6D7, #FCF4D6, #EFBAB1
+*/
+
+
+h1,h2,h3,h4,h5,h6,blockquote, figcaption.h3 {
+	/*font-family: 'Dosis', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Raleway', sans-serif;
+}
+
+a,p,li {
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Cabin', sans-serif;
+}
+
+#logo {
+	height: 60px;
+	margin-top: -7px;
+}
+
+.navbar {
+	background-color: #FFFFFF;
+	/*min-height: 75px;*/
+	margin-bottom: 0;
+	border: none;
+}
+
+.navbar-brand {
+	min-height: 75px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #DDD;
+	border-color: #DDD;
+}
+
+ul {
+	text-indent: -8px;
+}
+
+ul li>a {
+	margin-top: 9px; /* push navbar text down */
+	color: #888888;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #000000;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #AED0F6;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover  {
+	color: #000000;	/* retain same colour of nav items on hover and when visited */
+}
+
+#bgImage {
+	background: url("../img/telescope_landscape.jpg");
+	background-position: center center;	/* to centre img within container */
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	padding-top: 13%;		/* to force img full-height */
+	padding-bottom: 13%;	/* to force img full-height */
+	width: 100%;
+	min-height: 100%;
+}
+
+.badgesCopy {
+	color: #FFFFFF;
+}
+
+.appStoreBadge {
+	padding: 0 30px;
+}
+
+.socialMediaWrapper {
+	padding-left: 39px;
+}
+
+.socialIcon {
+	margin: 6px;
+}
+
+i.fa.fa-envelope-square {
+	font-size: 34px;
+	vertical-align: -26%;
+}
+
+.socialMediaWrapper>a {
+	text-decoration: none;
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+#welcomeSection {
+	background-color: #AED0F6;
+	color: #000000;
+	/*padding: 30px 15px; Original settings */
+	padding: 105px 15px 30px 15px;
+}
+
+#welcomeSection img {
+	height: 350px;
+}
+
+#broadcastingSection {
+	background-color: #F1F1F2;
+	/*padding-top: 10px;
+	padding-bottom: 50px; Original settings */
+	padding-top: 85px;
+	padding-bottom: 97px;
+}
+
+iframe {
+	padding: 15px 5px;
+}
+
+#servicesSection {
+	background-color: #A1D6E2;
+	/*padding-top: 10px;
+	padding-bottom: 45px; Original settings */
+	padding-top: 85px;
+	padding-bottom: 94px;
+}
+
+#servicesSection li {
+	margin-left: 20px;
+}
+
+#howItWorksSection {
+	background-color: #66A4AC;
+	/*padding-top: 10px;
+	padding-bottom: 35px; Original settings */
+	padding-top: 85px;
+	padding-bottom: 69px;
+}
+
+#howItWorksSection img {
+	height: 200px;
+}
+
+#gallerySection {
+	background-color: #FFFFFF;
+	/*padding-top: 40px;
+	padding-bottom: 55px; Original settings */
+	padding-top: 115px;
+	padding-bottom: 128px;
+}
+
+#gallerySection img {
+	height: 350px;
+}
+
+figure {
+	padding-top: 15px;
+}
+
+figcaption {
+	margin-top: 10px;
+}
+
+#missionStatementSection {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: 700;
+}
+
+#aboutSection {
+	background-color: #333333;
+	color: #F2F8F8;
+	padding: 20px 15px;
+}
+
+.aboutParagraph {
+	border-right: 1px solid;
+	padding: 10px 20px 10px 0;
+}
+
+#copyrightSection {
+	background-color: #333333;
+	color: #F2F8F8;
+	padding-top: 20px;
+}
+
+/* Media queries */
+@media(min-width:767px) {
+	.navbar {
+		padding: 0;
+	}
+}
