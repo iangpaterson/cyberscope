@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Cyberscope TV livestreaming</title>
+		<title>Cyberscope Jobs/Training</title>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
@@ -32,22 +32,22 @@
 			<div class="container">
 				<div class="navbar-header page-scroll">
 					<a class="navbar-brand page-scroll" href="index.html"><img id="logo" src="img/cyberscope_logo.png" alt="CybersopeTV Logo"></a>
-						<button type="button" class="hide" data-toggle="collapse" data-target="#myCollapsingList">
+						<button type="button" class="hide" data-toggle="collapse" data-target="#navbarCollapsingList">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
 					</div>
 				<ul id="navbarCollapsingList" class="hide">
-					<!-- data-toggle="collapse" & data-target="#navbarCollapsingList" added to each <a> link to collapse menu ONLY for SPA -->
+					<!-- data-toggle="collapse" & data-target="#navbarCollapsingList.in" added to each <a> link to collapse menu ONLY for SPA -->
 					<li><a class="page-scroll" href="#welcomeSection" data-toggle="collapse" data-target="#navbarCollapsingList.in">WELCOME</a></li>
+					<li><a class="page-scroll" href="contact_us.html" data-toggle="collapse" data-target="#navbarCollapsingList.in">JOBS</a></li>
+					<li><a class="page-scroll" href="training.html" data-toggle="collapse" data-target="#navbarCollapsingList.in">TRAINING</a></li>
 					<li><a class="page-scroll" href="#broadcastingSection" data-toggle="collapse" data-target="#navbarCollapsingList.in">BROADCASTING</a></li>
 					<li><a class="page-scroll" href="#servicesSection" data-toggle="collapse" data-target="#navbarCollapsingList.in">SERVICES</a></li>
 					<li><a class="page-scroll" href="#howItWorksSection" data-toggle="collapse" data-target="#navbarCollapsingList.in">HOW IT WORKS</a></li>
-					<li><a class="page-scroll" href="#gallerySection" data-toggle="collapse" data-target="#navbarCollapsingList.in">GALLERY</a></li>
 					<li><a class="page-scroll" href="#aboutSection" data-toggle="collapse" data-target="#navbarCollapsingList.in">ABOUT</a></li>
-					<li><a class="page-scroll" href="contact_us.html" data-toggle="collapse" data-target="#navbarCollapsingList.in">JOBS</a></li>
-					<li><a class="page-scroll" href="training.html" data-toggle="collapse" data-target="#navbarCollapsingList.in">TRAINING</a></li>
+					<li><a class="page-scroll" href="CONTACT_US.HTML" data-toggle="collapse" data-target="#navbarCollapsingList.in">CONTACT</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -55,14 +55,21 @@
 		
 		<!--=================== header ===================-->
 		<header>
-			<div class="container">
+			<div class="container" style="height:400px;">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h1>Fill out your details below and upload your CV</h1>
+					<h1>Please send an email to <a href="mailto:colin@cyberjobscope.com">colin@cyberjobscope.com</a></h1>
+					<h3>We will review your message and get back to you ASAP</h3>
+				</div>
+			</div>
+			<div class="hide container">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h1>Fill out your details below and upload your CV or job vacancy if you are an employer</h1>
 					<h3>We will review your message and get back to you ASAP</h3>
 				</div>
 				<div class="col-sm-8 col-sm-offset-2">
+					
 					<!--===================== form =====================-->
-					<form>
+					<form class="hide">
 						<div class="form-group">
 							<label for="exampleInputName1">Name</label>
 							<input type="name" class="form-control" id="exampleInputName1" placeholder="your full name">
@@ -82,6 +89,7 @@
 						<button type="submit" class="btn btn-primary">Submit</button>
 					</form>
 					<!--================ end of form =================-->
+
 				</div>
 			</div><!-- /.container -->
 		</header>
@@ -104,26 +112,26 @@
 			<!--================ end of About ================-->
 
 			<!--============== App Store badges ==============-->
-				<div class="col-sm-3 appStoreBadge text-center">
-					<a href="https://play.google.com/store/apps/details?id=com.scotishhealth.stethyscope#details-reviews"><img src="img/Download_on_the_App_Store_Badge_US-UK_135x40.svg" height="60" alt="Download on the App Store"></a>
+				<div class="hide col-sm-3 appStoreBadge text-center">
+					<a href="https://play.google.com/store/apps/details?id=com.scotishhealth.stethyscope#details-reviews" target="_blank"><img src="img/Download_on_the_App_Store_Badge_US-UK_135x40.svg" height="60" alt="Download on the App Store"></a>
 				</div>
 				<div class="col-sm-3 playStoreBadge text-center">
-					<a href="https://play.google.com/store/apps/details?id=com.scotishhealth.stethyscope#details-reviews"><img src="img/google-play-badge.png" height="90" alt="Download on Google Play"></a>
+					<a href="https://play.google.com/store/apps/details?id=com.scotishhealth.stethyscope#details-reviews" target="_blank"><img src="img/google-play-badge.png" height="90" alt="Download on Google Play"></a>
 				</div>
 			<!--============== App Store badges ==============-->
 
 			<!--============ Social media butons =============-->
 				<div class="col-sm-3 socialMediaFooter text-center">
-					<a href="https://web.facebook.com/colin.rawlinson">
+					<a href="https://web.facebook.com/colin.rawlinson" target="_blank">
 						<img class="socialIcon" src="img/FB-f-Logo__blue_50.png" height="34" alt="Facebook Page">
 					</a>
-					<a href="https://twitter.com/oilwork">
+					<a href="https://twitter.com/oilwork" target="_blank">
 						<img class="socialIcon" src="img/Twitter_Social_Icon_Rounded_Square_Color.png" height="34" alt="Twitter">
 					</a>
-					<a href="https://youtu.be/PybykwL8Llw">
+					<a href="https://youtu.be/PybykwL8Llw" target="_blank">
 						<img class="socialIcon" src="img/YouTube-social-squircle_red_48px.png" height="36" alt="YouTube">
 					</a>
-					<a href="https://uk.linkedin.com/in/oiljobs">
+					<a href="https://uk.linkedin.com/in/oiljobs" target="_blank">
 						<img class="socialIcon" src="img/In-2CRev-34px-TM.png" height="34" alt="LinkedIn Profile">
 					</a>
 				</div>

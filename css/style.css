@@ -40,7 +40,7 @@ a,p,li {
 	border-color: #DDD;
 }
 
-ul {
+.row ul {
 	text-indent: -8px;
 }
 
@@ -104,6 +104,10 @@ ul li>a {
 	padding: 102px 15px 102px 15px;
 }
 
+#welcomeSection h4 {
+	margin-bottom: 25px;
+}
+
 #welcomeSection img {
 	height: 350px;
 }
@@ -128,7 +132,7 @@ iframe {
 	padding-bottom: 94px;
 }
 
-#servicesSection li {
+.row li {
 	margin-left: 20px;
 }
 
@@ -153,7 +157,7 @@ iframe {
 }
 
 #gallerySection {
-	background-color: #FFFFFF;
+	background-color: #66A4AC;
 	/*padding-top: 40px;
 	padding-bottom: 55px; Original settings */
 	padding-top: 115px;
@@ -203,6 +207,12 @@ figcaption {
 	background-color: #333333;
 	color: #F2F8F8;
 	padding-top: 20px;
+}
+
+.gdprBadge {
+	margin: 25px 10px;
+	max-height: 320px;
+	text-align: center;
 }
 
 /* Media queries */
